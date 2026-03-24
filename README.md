@@ -1,20 +1,36 @@
 # MoodMatch - The Social Mood Tracking Game
 
-## Overview
+## Description
+MoodMatch is a social game that allows users to track and share their mood over time. Users can log their mood daily and see how their mood changes, as well as compare their mood to that of their friends.
 
-MoodMatch is an open-source project that provides a platform for users to track and share their moods with others. The goal of this project is to create a social game that helps people understand and manage their emotional well-being.
+## Features
 
-## New Feature: Mood Visualization
+### Mood Tracking
+- Users can log their mood on a daily basis, choosing from a range of emotions.
+- Users can view their mood history and see how their mood has changed over time.
 
-We're excited to introduce a new feature that allows users to visualize their mood trends over time. This feature will enable users to see patterns in their mood changes, identify triggers, and better understand their emotional state.
+### Social Sharing
+- Users can connect with friends and see their mood history.
+- Users can comment on their friends' mood updates and provide support.
 
-### Key Functionality:
+### Mood Analytics
+- Users can see aggregated mood data for their social network, allowing them to identify trends and patterns.
+- Users can receive personalized insights and recommendations based on their mood history.
 
-- **Mood Tracking**: Users can log their moods on a daily basis, rating their mood on a scale from 1 to 10.
-- **Mood History**: Users can view their mood history, organized by day, week, or month.
-- **Mood Visualization**: Users can generate visual representations of their mood data, such as line charts or heatmaps, to identify patterns and trends.
-- **Mood Insights**: Based on the user's mood data, the system will provide personalized insights and recommendations to help the user improve their emotional well-being.
+### New Feature: Mood Journaling
+- Users can now add optional journal entries to their daily mood updates.
+- Journal entries can include text, photos, and audio recordings, allowing users to provide more context around their mood.
+- The journal feature enables users to track the factors that influence their mood, such as events, activities, and thoughts.
+- Mood journal entries are private by default, but users can choose to share them with selected friends or publicly.
+- The journal feature provides a deeper level of self-reflection and understanding, empowering users to better manage their mental health and well-being.
 
 ## Getting Started
 
-To get started with MoodMatch, please follow the instructions in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+1. Clone the repository: `git clone https://github.com/your-username/MoodMatch.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Run the application: `python app.py`
+4. Open the application in your web browser: `http://localhost:5000`
+
+## Contributing
+
+We welcome contributions from the open-source community. If you would like to contribute to the MoodMatch project, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
