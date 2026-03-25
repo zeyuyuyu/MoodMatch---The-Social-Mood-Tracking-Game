@@ -1,36 +1,27 @@
 # MoodMatch - The Social Mood Tracking Game
 
-## Description
-MoodMatch is a social game that allows users to track and share their mood over time. Users can log their mood daily and see how their mood changes, as well as compare their mood to that of their friends.
+## Overview
 
-## Features
+MoodMatch is an open-source social application that allows users to track and share their moods with friends. Users can log their current mood, view mood trends over time, and compete on a leaderboard for the most positive mood.
 
-### Mood Tracking
-- Users can log their mood on a daily basis, choosing from a range of emotions.
-- Users can view their mood history and see how their mood has changed over time.
+## New Feature: Mood Tracking Leaderboard
 
-### Social Sharing
-- Users can connect with friends and see their mood history.
-- Users can comment on their friends' mood updates and provide support.
+We are excited to introduce a new leaderboard feature to MoodMatch. This feature will allow users to compete with their friends and the broader community to maintain the most positive mood over time.
 
-### Mood Analytics
-- Users can see aggregated mood data for their social network, allowing them to identify trends and patterns.
-- Users can receive personalized insights and recommendations based on their mood history.
+### How it Works
 
-### New Feature: Mood Journaling
-- Users can now add optional journal entries to their daily mood updates.
-- Journal entries can include text, photos, and audio recordings, allowing users to provide more context around their mood.
-- The journal feature enables users to track the factors that influence their mood, such as events, activities, and thoughts.
-- Mood journal entries are private by default, but users can choose to share them with selected friends or publicly.
-- The journal feature provides a deeper level of self-reflection and understanding, empowering users to better manage their mental health and well-being.
+1. Users can log their current mood on a scale from 1 (very negative) to 10 (very positive).
+2. The application will track each user's average mood score over the past 7 days.
+3. A leaderboard will be displayed, showing the top 10 users with the highest average mood scores.
+4. Users can view their current ranking on the leaderboard and strive to improve their mood to climb the ranks.
+
+### Benefits
+
+- Encourages users to maintain a positive mood and mindset.
+- Fosters a sense of community and friendly competition among users.
+- Provides users with a tangible goal to work towards, increasing engagement with the app.
+- Allows users to track their mood progress over time and see how they compare to their peers.
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/MoodMatch.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Run the application: `python app.py`
-4. Open the application in your web browser: `http://localhost:5000`
-
-## Contributing
-
-We welcome contributions from the open-source community. If you would like to contribute to the MoodMatch project, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+To get started with MoodMatch, please visit the project repository at [https://github.com/MoodMatch/MoodMatch](https://github.com/MoodMatch/MoodMatch) and follow the instructions in the README file.
